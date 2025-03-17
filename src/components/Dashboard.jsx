@@ -33,6 +33,7 @@ const Dashboard = () => {
 
   return (
     <div className="dashboard">
+      <button onClick={() => navigate('/form')} className='border-2 border-black p-2 rounded-xl bg-blue-400 w-40'>Add</button>
       <header className="dashboard-header">
         <h1>Movie Collection</h1>
       </header>
